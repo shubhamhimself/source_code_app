@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "195928824953",
+    "firebase_url": "https://techy-shubham-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "techy-shubham",
+    "storage_bucket": "techy-shubham.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:195928824953:android:a279f9fb252ccebe6ec8a8",
+        "android_client_info": {
+          "package_name": "techy.apk.techyshubham"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKXPTRqY5OVmh6F4Cd0m_DbfwUY9XI5dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

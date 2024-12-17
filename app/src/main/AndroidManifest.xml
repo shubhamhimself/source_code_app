@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TechyShubham"
+        tools:targetApi="31">
+        <activity
+            android:name=".Tutorial.SVideo.SVZero"
+            android:exported="false" />
+        <activity
+            android:name=".Tutorial.LVideo.LVOne"
+            android:exported="false" />
+        <activity
+            android:name=".Tutorial.LVideo.LVZero"
+            android:exported="false" />
+        <activity
+            android:name=".RelationshipWithBooks.AI.AIOne"
+            android:exported="false" />
+        <activity
+            android:name=".RelationshipWithBooks.Story.StoryThree"
+            android:exported="false" />
+        <activity
+            android:name=".RelationshipWithBooks.Story.StoryTwo"
+            android:exported="false" />
+        <activity
+            android:name=".RelationshipWithBooks.Story.StoryOne"
+            android:exported="false" />
+        <activity
+            android:name=".RelationshipWithBooks.Story.StoryZero"
+            android:exported="false" />
+        <activity
+            android:name=".RelationshipWithBooks.Story.StoryBooks"
+            android:exported="false" />
+        <activity
+            android:name=".learnJava.LearnJava"
+            android:exported="false" />
+        <activity
+            android:name=".Tutorial.ShortVideo"
+            android:exported="false" />
+        <activity
+            android:name=".Tutorial.LongVideo"
+            android:exported="false" />
+        <activity
+            android:name=".Tutorial.SVOne"
+            android:exported="false" />
+        <activity
+            android:name=".RelationshipWithBooks.CategoriesBooks"
+            android:exported="false" />
+        <activity
+            android:name=".FullSourceCode.WebSite"
+            android:exported="false" />
+        <activity
+            android:name=".FullSourceCode.AndroidApp"
+            android:exported="false" />
+        <activity
+            android:name=".WebsiteDesigning.Website"
+            android:exported="false" />
+        <activity
+            android:name=".Tutorial.Tutorial"
+            android:exported="false" />
+        <activity
+            android:name=".RelationshipWithBooks.Books"
+            android:exported="false" />
+        <activity
+            android:name=".LivewithAdmin.LIveAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".LearnAndroidStudio.LearnAndroid"
+            android:exported="false" />
+        <activity
+            android:name=".KnowAboutMe.KnowAbout"
+            android:exported="false" />
+        <activity
+            android:name=".FullSourceCode.SourceCode"
+            android:exported="false" />
+        <activity
+            android:name=".SlideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashMain"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

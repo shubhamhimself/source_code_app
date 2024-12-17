@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Shubham Official</string>
+
+    //Headings
+    <string name="heading_one">Welcome to Shubham Official</string>
+    <string name="heading_two">Created by Techy Shubham</string>
+    <string name="heading_three">Know About me</string>
+    <string name="heading_fourth">Cracking codes and slaying bugs</string>
+
+    <string name="open"></string>
+    <string name="close"></string>
+
+
+    //Description
+    <string name="desc_one">Hey! I am Shubham Kandar</string>
+    <string name="desc_two">Prior to my current role, I worked as a developer</string>
+    <string name="desc_three">I am a front-end and back-end developer with over a decade of experience</string>
+    <string name="desc_fourth">I build interactive websites and Apps that run across platforms and devices</string>
+
+</resources>
